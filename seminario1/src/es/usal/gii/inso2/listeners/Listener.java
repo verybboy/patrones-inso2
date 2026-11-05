@@ -1,6 +1,6 @@
 package es.usal.gii.inso2.listeners;
 
-//Esta clase es la interfaz
+//Esta clase es la interfaz por eso es "public interface"
 
 public interface Listener {
 	public void onStart();

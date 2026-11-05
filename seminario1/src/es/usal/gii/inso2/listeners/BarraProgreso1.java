@@ -4,20 +4,17 @@ public class BarraProgreso1 implements Listener {
 
 	@Override
 	public void onStart() {
-		// TODO Auto-generated method stub
-		
+		System.out.println("[BARRAPROGRESO1] El servidor ha recibido la petición");
 	}
 
 	@Override
 	public void onProgress(int tamRestante) {
-		// TODO Auto-generated method stub
-		
+		System.out.println("[BARRAPROGRESO1] Quedan " + tamRestante + " MB");
 	}
 
 	@Override
 	public void onFinish(int code) {
-		// TODO Auto-generated method stub
-		
+		System.out.println("[BARRAPROGRESO1] Ha finalizado con código " + code);
 	}
 
 }
